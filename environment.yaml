@@ -1,0 +1,30 @@
+name: meerklass
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - ipython
+  - ipykernel
+  - pip
+  - matplotlib
+  - numpy
+  - scipy
+  - scikit-learn
+  - astropy
+  - astropy-healpix
+  - healpy
+  - scipy
+  - cython
+  - h5py
+  - mock
+  - numba
+  - six
+  - sphinx
+  - joblib
+  - ipyparallel
+  - pip:
+    - ephem
+    - git+https://github.com/ska-sa/katdal.git
+    - git+https://github.com/meerklass/ivory.git
+    - git+https://github.com/meerklass/museek.git@gain-calibration
