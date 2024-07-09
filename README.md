@@ -1,6 +1,6 @@
 # MeerKLASS Hit Map
 
-Currently, UHF only.
+Make hit maps. Currently, UHF only.
 
 ## How to update
 
